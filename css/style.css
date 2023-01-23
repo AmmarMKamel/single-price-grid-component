@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+main {
+  width: 310px;
+}
+
+main article {
+  padding: 0 25px;
+}
+main article h2 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+main article:first-of-type {
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+main article:first-of-type h3 {
+  color: hsl(71, 73%, 54%);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+main article:first-of-type p {
+  color: hsl(218, 22%, 67%);
+  font-size: 0.85rem;
+  line-height: 1.7em;
+}
+
+main article:nth-of-type(2) {
+  background-color: hsl(179, 62%, 43%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main article:nth-of-type(2) h2 {
+  color: hsl(204, 43%, 93%);
+}
+
+main article:nth-of-type(2) h3 {
+  color: hsl(204, 43%, 93%);
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main article:nth-of-type(2) h3 span {
+  color: hsl(179, 58%, 64%);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+main article:nth-of-type(2) h4 {
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+main article:nth-of-type(2) a {
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+main article:last-of-type {
+  background-color: hsl(179, 47%, 52%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+main article:last-of-type h2 {
+  color: hsl(204, 43%, 93%);
+}
+
+main article:last-of-type span {
+  color: hsl(182, 73%, 78%);
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  main {
+    width: 565px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  main article:first-of-type p {
+    font-size: 0.9rem;
+  }
+
+  main article:nth-of-type(2) {
+    width: 50%;
+  }
+
+  main article:nth-of-type(2) h4 {
+    font-size: 0.9rem;
+  }
+
+  main article:nth-of-type(2) a:hover {
+    color: hsl(71, 73%, 54%);
+    background-color: hsl(204, 43%, 93%);
+  }
+
+  main article:last-of-type {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
